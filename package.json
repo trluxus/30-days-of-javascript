@@ -1,0 +1,14 @@
+{
+  "name": "30-days-of-javascript",
+  "version": "1.0.0",
+  "description": "Learn JS Basics with 30 Qs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
