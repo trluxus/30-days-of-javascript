@@ -3,12 +3,12 @@ const expect = function (val) {
     toBe(v) {
       if (val === v) return true;
 
-      throw new Error("Not Equal");
+      throw new Error('Not Equal');
     },
     notToBe(v) {
       if (val !== v) return true;
 
-      throw new Error("Equal");
+      throw new Error('Equal');
     },
   };
 };

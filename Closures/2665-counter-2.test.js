@@ -1,6 +1,6 @@
-const counter = require("./2665-counter-2");
+const counter = require('./2665-counter-2');
 
-test("returns [6, 5, 4]", () => {
+test('returns [6, 5, 4]', () => {
   const fun = counter(5);
   const result = [];
 
@@ -9,7 +9,7 @@ test("returns [6, 5, 4]", () => {
   expect(result).toEqual([6, 5, 4]);
 });
 
-test("returns [1,2,1,0,0]", () => {
+test('returns [1,2,1,0,0]', () => {
   const fun = counter(0);
   const result = [];
 

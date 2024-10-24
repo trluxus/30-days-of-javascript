@@ -1,5 +1,5 @@
 const createHelloWorld = function () {
-  const helloWorld = "Hello World";
+  const helloWorld = 'Hello World';
 
   return function () {
     return helloWorld;

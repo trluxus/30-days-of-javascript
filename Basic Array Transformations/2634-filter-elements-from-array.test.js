@@ -1,6 +1,6 @@
-const filter = require("./2634-filter-elements-from-array");
+const filter = require('./2634-filter-elements-from-array');
 
-test("returns [20,30]", () => {
+test('returns [20,30]', () => {
   const fun = function greaterThan10(n) {
     return n > 10;
   };
@@ -9,7 +9,7 @@ test("returns [20,30]", () => {
   expect(filter(arr, fun)).toEqual([20, 30]);
 });
 
-test("returns [1]", () => {
+test('returns [1]', () => {
   const fun = function firstIndex(n, i) {
     return i === 0;
   };
@@ -18,7 +18,7 @@ test("returns [1]", () => {
   expect(filter(arr, fun)).toEqual([1]);
 });
 
-test("returns [42,42,42]", () => {
+test('returns [42,42,42]', () => {
   const fun = function plusOne(n) {
     return n + 1;
   };

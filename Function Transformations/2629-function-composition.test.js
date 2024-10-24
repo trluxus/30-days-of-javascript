@@ -1,0 +1,3 @@
+const compose = null;
+
+test()
